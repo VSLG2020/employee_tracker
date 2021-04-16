@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/VSLG2020/employee_tracker#readme",
   "dependencies": {
+    "inquirer": "^8.0.0",
     "mysql2": "^2.2.5",
+    "node-gyp": "^8.0.0",
     "sqlite3": "^5.0.2"
   }
 }
