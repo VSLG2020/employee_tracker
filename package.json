@@ -2,7 +2,7 @@
   "name": "employee_tracker",
   "version": "1.0.0",
   "description": "**User Story**",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +18,14 @@
   "homepage": "https://github.com/VSLG2020/employee_tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.17.1",
     "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "node-gyp": "^8.0.0",
     "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
