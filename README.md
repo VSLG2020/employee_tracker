@@ -6,7 +6,7 @@
 ## Description
 Keep track of employee information by directly accessing the databases that house your company's departments, roles, and employees.
 
-![Employee tracker demo](#link)
+![Employee tracker demo](Demo.mp4)
 
 
 ## Installation
