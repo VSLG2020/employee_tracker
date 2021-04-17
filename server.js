@@ -142,6 +142,7 @@ function addRole() {
   })
 };
 
+//add employee
 function addEmployee() {
   connection.query("SELECT * FROM roles", function (err, results) {
     if (err) throw err;
@@ -178,6 +179,7 @@ function addEmployee() {
   })
 };
 
+//view dept
 function viewDept() {
   connection.query(`SELECT * FROM departments`, function (err, res) {
     if (err) throw err;
@@ -186,6 +188,7 @@ function viewDept() {
   })
 };
 
+//view roles
 function viewRoles() {
   connection.query(`SELECT * FROM roles`, function (err, res) {
     if (err) throw err;
@@ -194,6 +197,7 @@ function viewRoles() {
   })
 };
 
+//view employees
 function viewEmp() {
   connection.query(`SELECT * FROM employees`, function (err, res) {
     if (err) throw err;
@@ -202,6 +206,7 @@ function viewEmp() {
   })
 };
 
+//select employee
 function selectEmp() {
   connection.query("SELECT * FROM employees", function (err, res) {
     if (err) throw err;
@@ -237,6 +242,7 @@ function selectEmp() {
   })
 };
 
+//remove employee
 function removeEmp() {
   connection.query("SELECT * FROM employees", function (err, res) {
     if (err) throw err;
@@ -263,6 +269,7 @@ function removeEmp() {
   })
 };
 
+//remove role
 function removeRole() {
   connection.query("SELECT * FROM roles", function (err, res) {
     if (err) throw err;
@@ -289,6 +296,7 @@ function removeRole() {
   })
 };
 
+//remove dept
 function removeDept() {
   connection.query("SELECT * FROM departments", function (err, res) {
     if (err) throw err;
